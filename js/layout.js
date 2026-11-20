@@ -141,3 +141,11 @@ document.addEventListener('DOMContentLoaded', () => {
   renderizarLayout();
   aplicarTraduccionesPagina(obtenerIdiomaActual(), paginaActual);
 });
+
+ window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/29099294-9c9d-48e2-b893-6e0a9240c196.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
