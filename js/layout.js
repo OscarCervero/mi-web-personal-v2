@@ -142,10 +142,8 @@ document.addEventListener('DOMContentLoaded', () => {
   aplicarTraduccionesPagina(obtenerIdiomaActual(), paginaActual);
 });
 
- window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/29099294-9c9d-48e2-b893-6e0a9240c196.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "zglgb2vb91");
